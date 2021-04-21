@@ -1,8 +1,8 @@
+# This app is being written for car windows 
 start = False
 want2 = ''
 up = '|'
 down = '_'
-
 while True:
     print('''
         Enter What do you want to do?
