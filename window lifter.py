@@ -16,8 +16,8 @@ while True:
             print('''
             Car Start
             Now what should I do?
-            1-For up => +
-            2-For down => -
+            1-For up => type +
+            2-For down => type -
             ''')
             want2 = input()
             if want2 == '+':
