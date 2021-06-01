@@ -6,8 +6,8 @@ down = '_'
 while True:
     print('''
         Enter What do you want to do?
-        1-Start a car => start
-        2-Turn off => off
+        1-Start a car => type start
+        2-Turn off => type off
     ''')
     want = input()
     if want.upper() == "START":
@@ -30,8 +30,8 @@ while True:
             print('''
             Car was starting
             Now what should I do?
-            1-Up => +
-            2-Down => -
+            1-Up => type +
+            2-Down => type -
             ''')
             want2 = input()
             if want2 == '+':
